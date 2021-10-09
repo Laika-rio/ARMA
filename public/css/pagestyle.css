@@ -1,7 +1,7 @@
 * {
-    text-align: center;
     background-color: black;
     color: rgb(154, 255, 2);
+    font-family: monospace;
 }
 
 /* コンテナディブの幅と余白 */
@@ -9,3 +9,25 @@
     width: 600px;
     margin: 40px auto;
 }
+
+/* タイトル部分の設定 */
+h1 {
+    border-bottom: 1px solid; /* 下線部分 */
+    font-size: 18px;
+    margin: 16px 0; /* button's between */
+    padding-bottom: 8px; /* ボタンの中の余白 */
+}
+
+/* Index.blade
+        menu barの並び */
+        .menu_bar {
+            margin-left: 20px;
+            text-align-last: center; /* menu barを真ん中に表示 */
+        }
+
+        .menu_bar button {
+            width: 80px;
+            height: 50px;
+            margin-right: 15px;
+            border-radius: 30px;
+        }

@@ -4,16 +4,18 @@
     </x-slot>
 
     {{--  検索窓を上部につけておきたい --}}
-    <h1>My Score<a href=""><span style="color: red; float: right;">[Add to data]</span></a></h1>
-    <p>▷ Search Menu</p>
+    <h1>My Score<a href=""><span style="color: red; float: right; font-size: 15px; ">[Add to data]</span></a></h1>
+    <br>
+    <p>▷▷ Search Menu</p>
         <div class="menu_bar">
-            <button onclick="location.href=''">年別</button>
-            <button onclick="location.href=''">曲名</button>
-            <button onclick="location.href=''">歌手名</button>
-            <button onclick="location.href=''">レート</button>
-            <button onclick="location.href=''">ジャンル</button>
+            <button onclick="location.href=''">YEAR</button>
+            <button onclick="location.href=''">SONG</button>
+            <button onclick="location.href=''">SINGER</button>
+            <button onclick="location.href=''">RATE</button>
+            <button onclick="location.href=''">JUNRE</button>
         </div>
-    <p>▷ Test</p>
+    <br>
+    <p>▷▷ Test</p>
     {{-- <ul>
         @forelse ($years as $year)
             <li>
