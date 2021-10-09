@@ -4,7 +4,7 @@
     </x-slot>
 
     {{--  検索窓を上部につけておきたい --}}
-    <h1>My Score<a href=""><span style="color: red; float: right; font-size: 15px; ">[Add to data]</span></a></h1>
+    <h1>My Score<a href="{{ route('add_to_data') }}"><span style="color: red; float: right; font-size: 15px; ">[Add to data]</span></a></h1>
     <br>
     <p>▷▷ Search Menu</p>
         <div class="menu_bar">

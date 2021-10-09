@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', [PostController::class, 'index'])
+    ->name('index');
+
+Route::get('/add_to_data', /* URLがこうだったら */
+         [PostController::class, 'add_to_data'] /* ここでfunctionを書かないためにPostControllerのadd_to_data関数を呼び出して、viewの表示を行なっている。 */ )
+    ->name('add_to_data'); /* route()でこのRoute定義を呼ぶ名前 */

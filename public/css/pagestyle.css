@@ -31,3 +31,29 @@ h1 {
             margin-right: 15px;
             border-radius: 30px;
         }
+
+/* add_date.blade
+        labelおきの余白*/
+        .add_data label{
+            display: block;
+            margin: 30px;
+        }
+
+        .add_data input {
+            border-color: rgb(154, 255, 2);
+        }
+
+        .add_data select {
+            border-color: currentColor;
+        }
+
+        .add_data textarea {
+            width: 400px;
+            height: 130px;
+            resize: none;
+            border-color: currentcolor;
+        }
+
+        .add_data .submi_button {
+            margin: 30px;
+        }
